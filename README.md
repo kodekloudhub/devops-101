@@ -1,15 +1,6 @@
 <p>
   <a href="https://blog.bytebytego.com/?utm_source=site"><img src="images/banner.jpg" /> Custom Image</a>
 </p>
-<p align="center">
-  【
-  <a href="https://www.youtube.com/channel/UCSWj8mqQCcrcBlXPi4ThRDQ">
-    💿 YouTube
-  </a> | 
-  <a href="https://kodekloud.com">
-    🌐 Web
-  </a> 】
-</p>
 
 
 # Illustrating DevOps Concepts: Bringing Clarity to Complex Ideas
@@ -22,14 +13,14 @@ Creating visual representations to simplify and clarify the often complex concep
 <details>
 <summary><a href="#kubernetes">Kubernetes</a></summary>
 
-[Why Kubernetes POD Networking is Complex ?](#why-kubernetes-pod-networking-is-complex)
+- [Why Kubernetes POD Networking is Complex ?](#why-kubernetes-pod-networking-is-complex)
 
 </details>
 
 <details>
 <summary><a href="#section-2">CI/CD</a></summary>
 
-[Topic 1](#) here.
+- [Topic 1](#)
 
 </details>
 
