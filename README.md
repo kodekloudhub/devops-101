@@ -11,7 +11,7 @@ Creating visual representations to simplify and clarify the often complex concep
 <details>
 <summary><a href="#kubernetes">Kubernetes</a></summary>
 
-- [Why Kubernetes POD Networking is Complex ?](#why-kubernetes-pod-networking-is-complex)
+- [Why Kubernetes POD Networking is Complex ?](#why-kubernetes-pod-networking-is-complex?)
 
 </details>
 
@@ -77,7 +77,7 @@ Kubernetes, often abbreviated as K8s, is an open-source container orchestration 
   <img src="images/kubernetes.png" style="width: 640px">
 </p>
 
-### Why Kubernetes POD Networking is Complex ?
+### Why Kubernetes POD Networking is Complex?
 
 
 <!-- End of the content -->
