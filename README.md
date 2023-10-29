@@ -19,7 +19,22 @@ Creating visual representations to simplify and clarify the often complex concep
 # Table of Contents
 <!-- TOC toc.levels=2 -->
 
-- [Kubernetes](#Kubernetes)
+<details>
+<summary><a href="#kubernetes">Kubernetes</a></summary>
+
+[Why Kubernetes POD Networking is Complex ?](#why-kubernetes-pod-networking-is-complex)
+
+</details>
+
+<details>
+<summary><a href="#section-2">CI/CD</a></summary>
+
+[Topic 1](#) here.
+
+</details>
+
+
+<!-- - [Kubernetes](#Kubernetes)
   - [Why Kubernetes POD Networking is Complex ?](#why-kubernetes-pod-networking-is-complex-?)
 - [CI/CD](#cicd)
 - [Microservice architecture](#microservice-architecture)
@@ -27,7 +42,7 @@ Creating visual representations to simplify and clarify the often complex concep
 - [GIT](#git)
 - [Cloud Services](#cloud-services)
 - [Linux](#linux)
-- [Security](#security)
+- [Security](#security) -->
 
 <!-- /TOC -->
 
@@ -38,23 +53,8 @@ Kubernetes, often abbreviated as K8s, is an open-source container orchestration 
 <p>
   <img src="images/kubernetes.png" style="width: 640px">
 </p>
+
 ### Why Kubernetes POD Networking is Complex ?
 
 
-
-<details>
-
-<summary>Section 1</summary>
-
-This is the content of Section 1.
-
-</details>
-
-<details>
-
-<summary>Section 2</summary>
-
-This is the content of Section 2.
-
-</details>
 
