@@ -1,6 +1,6 @@
 ## CI/CD
 
-Cloud certifications are credentials offered by various technology organizations that validate an individual's expertise and knowledge in cloud computing services, platforms, and technologies. These certifications have become increasingly important as cloud computing continues to play a crucial role in modern IT infrastructure and business operations.
+CI/CD, which stands for Continuous Integration and Continuous Deployment (or Continuous Delivery), is a set of practices and principles used in software development and DevOps to streamline and automate the process of building, testing, and deploying software applications. These practices help development teams deliver software more rapidly, reliably, and with higher quality.
 
 <p>
   <img src="../images/" style="width: 640px">

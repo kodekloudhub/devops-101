@@ -1,6 +1,6 @@
-## Cloud Certifications
+## DevOps
 
-Cloud certifications are credentials offered by various technology organizations that validate an individual's expertise and knowledge in cloud computing services, platforms, and technologies. These certifications have become increasingly important as cloud computing continues to play a crucial role in modern IT infrastructure and business operations.
+DevOps, short for Development and Operations, is a set of practices, principles, and cultural philosophies that aim to streamline and automate the software development and deployment process. The primary goal of DevOps is to enable collaboration and communication between development (Dev) and IT operations (Ops) teams to deliver software products and services more rapidly, reliably, and efficiently.
 
 <p>
   <img src="../images/" style="width: 640px">
