@@ -7,7 +7,7 @@
 
 Creating visual representations to simplify and clarify the often complex concepts of DevOps.
 
-<!-- Start of the TOC -->
+<!-- Start of the TOC
 <details>
 <summary><a href="#kubernetes">Kubernetes</a></summary>
 
@@ -64,7 +64,7 @@ Creating visual representations to simplify and clarify the often complex concep
 
 - [Topic 1](#)
 
-</details>
+</details> -->
 <!-- End of the TOC -->
 
 
