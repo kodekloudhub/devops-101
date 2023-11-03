@@ -58,5 +58,5 @@ The software is rigorously tested for bugs, vulnerabilities, and functionality. 
 
 <p></p>
 <p>
-  <img src="../images/kubernetes/do1.png" style="width: 640px">
+  <img src="../images/devops/do1.png" style="width: 640px">
 </p>
