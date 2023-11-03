@@ -29,6 +29,36 @@ Understanding Git and its myriad commands can be a challenging task for many dev
     -   It retrieves updates from a remote repository and then merges them into the current branch in the local repository.
     -   The representation indicates the flow from the "remote origin/main" to the local "main", highlighting both fetching and merging processes.
 
+Simplified and concise illustration of commands for better understanding
+
+𝟭. 𝗴𝗶𝘁  𝗺𝗲𝗿𝗴𝗲  𝘃𝘀  𝗴𝗶𝘁  𝗿𝗲𝗯𝗮𝘀𝗲:
+
+- 𝘨𝘪𝘵 𝘮𝘦𝘳𝘨𝘦 combines branch changes with new merge commits
+
+- 𝘨𝘪𝘵 𝘳𝘦𝘣𝘢𝘴𝘦 moves branch changes on top, creating a linear history
+
+  
+
+𝟮. 𝗴𝗶𝘁  𝗿𝗲𝘀𝗲𝘁  𝘃𝘀  𝗴𝗶𝘁  𝗿𝗲𝘃𝗲𝗿𝘁:
+
+- 𝘨𝘪𝘵 𝘳𝘦𝘴𝘦𝘵 undoes changes and moves the branch pointer, discarding subsequent commits
+
+- 𝘨𝘪𝘵 𝘳𝘦𝘷𝘦𝘳𝘵 creates new undo commits, preserving history
+
+  
+
+𝟯. 𝗴𝗶𝘁  𝗳𝗲𝘁𝗰𝗵  𝘃𝘀  𝗴𝗶𝘁  𝗽𝘂𝗹𝗹:
+
+- 𝘨𝘪𝘵 𝘧𝘦𝘵𝘤𝘩 downloads remote changes without auto-merging
+
+- 𝘨𝘪𝘵 𝘱𝘶𝘭𝘭 fetches and auto-merges remote changes
+
+  
+
+In short,
+
+git pull = git fetch + git merge
+
     <p></p>
 <p>
   <img src="../images/git/git1.png" style="width: 640px">
