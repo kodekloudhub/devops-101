@@ -1,5 +1,3 @@
-### Why Kubernetes POD Networking is Complex?
-
 # Why Kubernetes POD Networking is Complex?
 
 **Kubernetes** is designed to automate the deployment, scaling, and management of containerized applications. Each pod in a Kubernetes cluster has its IP address, and pods can communicate with each other across nodes in the cluster. As the number of pods increases, the potential connections between them grow rapidly.
