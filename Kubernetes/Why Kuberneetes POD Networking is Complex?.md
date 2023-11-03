@@ -25,7 +25,7 @@ In multi-tenant environments where multiple teams or applications share a Kubern
 ## Integration with Existing Infrastructure
 
 Kubernetes often needs to be integrated with existing network infrastructure, which can introduce challenges and complexities.
-
+<p></p>
 <p>
   <img src="../images/kubernetes/k1.png" style="width: 640px">
 </p>
