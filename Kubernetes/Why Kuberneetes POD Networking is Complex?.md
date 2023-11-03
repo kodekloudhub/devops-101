@@ -1,24 +1,32 @@
 ### Why Kubernetes POD Networking is Complex?
 
-Visualizing Kubernetes Pod Network Complexity
+# Why Kubernetes POD Networking is Complex?
 
-When considering Kubernetes and its networking model, one might wonder about the implications of scaling, particularly as the number of pods increases. This illustration titled "Kubernetes POD Network Complexity" provides a graphical representation of this escalating complexity, capturing the intricate inter-pod communication as clusters grow.
+**Kubernetes** is designed to automate the deployment, scaling, and management of containerized applications. Each pod in a Kubernetes cluster has its IP address, and pods can communicate with each other across nodes in the cluster. As the number of pods increases, the potential connections between them grow rapidly.
 
-Inter-Pod Connections:
-The image highlights a progression:
+## Direct Communication
 
-3 Pods: At the smallest scale, with just three pods, the connections form a simple triangle. This means each pod can directly communicate with the other two.
-4 Pods: With four pods, the scenario changes slightly. Beyond the perimeter connections, diagonal connections are added, reinforcing the idea that every pod can reach any other pod directly.
-5 Pods and Beyond: As we add more pods, the complexity escalates rapidly. By the time we reach 11 pods, the visualization looks more like a dense web, with myriad connections crisscrossing each other.
-This representation underscores a fundamental principle of Kubernetes networking: every pod should be able to communicate with every other pod, no matter where they are scheduled within the cluster. Such a setup ensures robustness and flexibility but comes with increased complexity as seen.
+In Kubernetes, every pod should be able to communicate with every other pod, regardless of the node they reside on. This creates a full mesh of connections, which can be seen in the image.
 
-Implications of the Complexity:
-This expanding web of connections is more than just lines on a graphic; it has real-world implications:
+## Service Discovery
 
-Performance Considerations: As the number of connections increases, ensuring low latency and high throughput can become challenging.
-Security: With more connections, there's a heightened need for effective network policies to prevent unauthorized access and potential breaches.
-Management Overhead: More connections can lead to increased difficulty in monitoring, troubleshooting, and managing the network.
-Resource Utilization: Each connection might consume system resources, and with hundreds or thousands of pods, this can have implications on the underlying infrastructure.
+Kubernetes supports service discovery, allowing pods to find and communicate with each other based on service names. This requires a sophisticated networking setup to route traffic correctly.
+
+## Network Policies
+
+Kubernetes also allows administrators to define network policies that determine which pods can communicate with each other. Implementing these policies adds another layer of complexity to the network.
+
+## Load Balancing
+
+Kubernetes services can load balance traffic between multiple pods, which requires additional networking setup to distribute traffic evenly.
+
+## Multi-tenancy
+
+In multi-tenant environments where multiple teams or applications share a Kubernetes cluster, ensuring network isolation between different tenants can be complex.
+
+## Integration with Existing Infrastructure
+
+Kubernetes often needs to be integrated with existing network infrastructure, which can introduce challenges and complexities.
 
 <p>
   <img src="../images/kubernetes/k1.png" style="width: 640px">
