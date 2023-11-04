@@ -53,13 +53,11 @@ Simplified and concise illustration of commands for better understanding
 
 - 𝘨𝘪𝘵 𝘱𝘶𝘭𝘭 fetches and auto-merges remote changes
 
-  
-
 In short,
 
 git pull = git fetch + git merge
 
-    <p></p>
+<p></p>
 <p>
   <img src="../images/git/git1.png" style="width: 640px">
 </p>
