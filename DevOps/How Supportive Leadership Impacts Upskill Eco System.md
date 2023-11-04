@@ -20,7 +20,7 @@ The influence of leadership style on an employee's growth and transformation is 
         -   **Synergy**: Individual strengths are leveraged to create a harmonious and effective team.
         -   **Shared Vision**: The team and the leader work together towards a common objective, ensuring mutual success.
 
-        <p></p>
+<p></p>
 <p>
   <img src="../images/devops/do2.png" style="width: 640px">
 </p>
