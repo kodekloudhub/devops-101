@@ -1,5 +1,5 @@
 <p>
-  <a href="https://blog.bytebytego.com/?utm_source=site"><img src="images/banner.jpg" /> Custom Image</a>
+  <a href="https://blog.bytebytego.com/?utm_source=site"><img src="images/main_page.png" /> Custom Image</a>
 </p>
 
 
