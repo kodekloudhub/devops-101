@@ -1,4 +1,4 @@
 <p></p>
 <p>
-  <img src="../images/general/gen1.pdf" style="width: 640px">
+  ![Impact of Supportive Leadership](../images/general/gen1.pdf "Impact of Supportive Leadership")
 </p>
