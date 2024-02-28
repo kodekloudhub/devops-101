@@ -6,8 +6,8 @@
 
 **Platform Engineering**
 
-- [Platform Engineering Guide]((https://docs.google.com/viewer?url=https://raw.githubusercontent.com/kodekloudhub/devops-101/main/Platform%20Engineering/Platform%20Engineering%20Roadmap.pdf)
-)
+- [Platform Engineering Guide](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/kodekloudhub/devops-101/main/Platform%20Engineering/Platform%20Engineering%20Roadmap.pdf)
+
 
 
 
